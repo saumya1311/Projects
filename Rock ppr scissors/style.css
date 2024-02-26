@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #635985;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: 10rem;
+    line-height: 10rem;
+    font-size: 50px;
+}
+.choice{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height:250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+#me,#com{
+    font-size: 50px;
+}
+.msg-cont{
+    margin-top: 2rem;
+}
+#msg{
+    background-color: #443C68;
+    color: whitesmoke;
+    gap: 4rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font:'Franklin Gothic Medium';
+    padding: 1rem;
+    border-radius: 1rem;
+}
